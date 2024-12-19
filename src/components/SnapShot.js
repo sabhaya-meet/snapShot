@@ -6,9 +6,6 @@ export default function SnapShot() {
   const [query, setQuery] = useState();
   const [searchphoto, setSearchPhoto] = useState([]);
   const [input, setInput] = useState("");
-  console.log(searchphoto, "==========================");
-  // const [photoUrl, setPhotoUrl] = useState("");
-  // console.log(photoUrl, "===================================");
   const fetchData = async (query) => {
     const response = await fetch(
       `https://api.unsplash.com/photos/?client_id=69PUZgtApOQi2FzUix9llXy1CsJ4kH7AjvqGXOF46lg&tags=${query}`
