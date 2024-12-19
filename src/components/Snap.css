@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    height: 100%;
+    max-width: 960px;
+    margin: auto;
+ display: flex;
+ flex-direction: column;
+}
+.first-div{
+    display: flex;
+    justify-content: center;
+    height: 50vh;
+    align-items: center;
+    flex-direction: column;
+}
+
+.h1class{
+    font-family: "Lobster", sans-serif;
+    font-size: 6em;
+    font-style: normal;
+    margin-bottom: 88px;
+}
+
+.inputBox{
+    height: 4rem;
+    width: 35rem;
+    font-size: 1.50rem;
+    background-color: #edeff0;
+    padding: 10px 15px;
+    border: 3px solid #d7dbdf;
+    border-right: none;
+    border-radius: 0.35em 0 0 0.35em;
+    outline: none;
+}
+.inputmaindiv{
+    display: flex;
+}
+
+.inputbtn{
+    outline: none;
+    border: none;
+    padding: 0 31px;
+    border-radius: 0 0.35em 0.35em 0;
+    cursor: pointer;
+    background-color: #051c33;
+}
+
+
+
+.btn{
+    display: flex;
+    gap: 2rem;
+    margin-top: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.allBtn{
+    cursor: pointer;
+    background: #051c33;
+    border-radius: 6px;
+    padding: 9px 40px;
+    color: #fff;
+    font-size: 16px;
+    font-family: "Lobster", sans-serif;
+    margin-top: 50px;
+    font-family: "Merriweather", serif;
+   
+}
+.h2{
+    font-size: 3em;
+    margin: 25px 0 40px;
+    text-transform: capitalize;
+    color: #051c33;
+    font-family: "Merriweather", serif;
+}
+
+.Photo-container{
+   display: flex;
+   flex-wrap: wrap;
+   gap: 1.50rem;
+   align-items: center;
+}
+
+img{
+    width: 216px;
+    height: 165px;
+    overflow: hidden;
+    margin-bottom: 15px;
+  
+}
